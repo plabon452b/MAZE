@@ -1,0 +1,32 @@
+﻿Build started 11/13/2018 9:00:33 PM.
+     1>Project "C:\Users\plabon\documents\visual studio 2013\Projects\Project_maze\Project_maze\Project_maze.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\plabon\Documents\Visual Studio 2013\Projects\Project_maze\sfml\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\plabon\documents\visual studio 2013\projects\project_maze\project_maze\player.h(12): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\plabon\documents\visual studio 2013\projects\project_maze\project_maze\player.h(17): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\plabon\documents\visual studio 2013\projects\project_maze\project_maze\player.h(23): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\plabon\documents\visual studio 2013\projects\project_maze\project_maze\player.h(29): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\plabon\documents\visual studio 2013\projects\project_maze\project_maze\player.h(78): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\plabon\documents\visual studio 2013\projects\project_maze\project_maze\player.h(81): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\plabon\documents\visual studio 2013\projects\project_maze\project_maze\player.h(84): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\plabon\documents\visual studio 2013\projects\project_maze\project_maze\player.h(87): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\plabon\documents\visual studio 2013\projects\project_maze\project_maze\timer.h(55): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\plabon\documents\visual studio 2013\projects\project_maze\project_maze\files.h(10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\plabon\documents\visual studio 2013\projects\project_maze\project_maze\userinterface.h(389): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\plabon\documents\visual studio 2013\projects\project_maze\project_maze\userinterface.h(390): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\plabon\documents\visual studio 2013\projects\project_maze\project_maze\userinterface.h(392): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\plabon\documents\visual studio 2013\projects\project_maze\project_maze\userinterface.h(395): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\plabon\documents\visual studio 2013\projects\project_maze\project_maze\controller.h(62): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(937) : see declaration of 'itoa'
+     1>c:\users\plabon\documents\visual studio 2013\projects\project_maze\project_maze\main.cpp(6): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\plabon\documents\visual studio 2013\projects\project_maze\project_maze\main.cpp(4): warning C4101: 'flag' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\plabon\documents\visual studio 2013\Projects\Project_maze\Debug\Project_maze.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\plabon\Documents\Visual Studio 2013\Projects\Project_maze\sfml\lib" "sfml-system-d.lib" "sfml-graphics-d.lib" "sfml-audio-d.lib" "sfml-network-d.lib" "sfml-window-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\plabon\documents\visual studio 2013\Projects\Project_maze\Debug\Project_maze.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\plabon\documents\visual studio 2013\Projects\Project_maze\Debug\Project_maze.lib" /MACHINE:X86 Debug\main.obj
+         Project_maze.vcxproj -> C:\Users\plabon\documents\visual studio 2013\Projects\Project_maze\Debug\Project_maze.exe
+     1>Done Building Project "C:\Users\plabon\documents\visual studio 2013\Projects\Project_maze\Project_maze\Project_maze.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.92
